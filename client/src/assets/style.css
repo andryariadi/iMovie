@@ -1,0 +1,398 @@
+/* Nvabar */
+#navbarNav .navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.3rem;
+  color: rgb(131, 180, 130);
+}
+
+#text-footer {
+  color: #46446f;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+#text-movie {
+  height: fit-content;
+  background-color: #f1d3b3;
+  box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+}
+
+#text-movie .movie-text {
+  color: #46446f;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.8rem;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(101, 100, 124);
+}
+
+button#btn-logout {
+  border-color: rgb(101, 100, 124);
+  color: rgb(101, 100, 124);
+  margin-top: 6px;
+}
+
+button#btn-logout:hover {
+  background-color: rgb(131, 180, 130);
+  color: rgb(63, 77, 102);
+}
+
+#search {
+  margin: auto;
+}
+/* End Nvabar */
+
+/* Tron */
+#tron-section .container .row {
+  background-color: brown;
+}
+
+#tron-section .container .row .tron-1 {
+  background-color: salmon;
+}
+
+#tron-section .container .row .tron-2 {
+  background-color: cadetblue;
+}
+/* End Tron */
+
+/* Card */
+#card-section #container-card {
+  /* background-color: rgb(184, 21, 162); */
+  /* height: 100vh; */
+}
+
+#row-movies {
+  margin-bottom: 0rem;
+}
+
+.card-1 #card-movie {
+  padding: 0;
+  background-color: #eef0f4;
+  box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+}
+/* End Card */
+
+/* Register */
+#register-section #container-register,
+#login-section #container-login {
+  /* background-color: rgb(157, 165, 42); */
+}
+
+#register-section .container .row,
+#login-section .container .row {
+  /* background-color: brown; */
+  border-radius: 30px;
+  box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 7px 7px 14px -1px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(304deg, #46446f, #83b482, #4caaa9);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#register-section .container .row .register-1,
+#login-section .container .row .login-1 {
+  /* background-color: salmon; */
+  height: 80%;
+}
+
+#register-section .container .row .register-2,
+#login-section .container .row .login-2 {
+  /* background-color: cadetblue; */
+  height: 80%;
+}
+/* End Register */
+
+/* img register login */
+img#img-register,
+img#img-login {
+  width: 100%;
+  animation: login 5s ease-in-out infinite;
+}
+
+@keyframes login {
+  0% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+/* img register login */
+
+.card {
+  width: 190px;
+  padding: 1.9rem 1.2rem;
+  text-align: center;
+  background: #2a2b38;
+}
+
+/* End Login Option */
+/*Inputs*/
+.field {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background-color: #1f2029;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+}
+
+.input-icon {
+  height: 1em;
+  width: 1em;
+  fill: #ffeba7;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+}
+
+/*Text*/
+.title {
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+/*Buttons*/
+.btn-singup {
+  margin: 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  padding: 0.6em 1.2em;
+  background-color: #ffeba7;
+  color: #5e6681;
+  box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-link {
+  color: #f5f5f5;
+  display: block;
+  font-size: 0.75em;
+  transition: color 0.3s ease-out;
+}
+
+/*Hover & focus*/
+.field input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-singup:hover {
+  background-color: #5e6681;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+
+.btn-link:hover {
+  color: #ffeba7;
+}
+
+/* End Login Option */
+
+/* checkbox */
+.cl-checkbox {
+  position: relative;
+  display: inline-block;
+}
+
+/* Input */
+.cl-checkbox > input {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  z-index: -1;
+  position: absolute;
+  left: -10px;
+  top: -8px;
+  display: block;
+  margin: 0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: none;
+  outline: none;
+  opacity: 0;
+  transform: scale(1);
+  pointer-events: none;
+  transition:
+    opacity 0.3s,
+    transform 0.2s;
+}
+
+/* Span */
+.cl-checkbox > span {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Box */
+.cl-checkbox > span::before {
+  content: '';
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 3px 11px 3px 1px;
+  border: solid 2px;
+  /* Safari */
+  border-color: rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+  transition:
+    border-color 0.2s,
+    background-color 0.2s;
+}
+
+/* Checkmark */
+.cl-checkbox > span::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  width: 10px;
+  height: 5px;
+  border: solid 2px transparent;
+  border-right: none;
+  border-top: none;
+  transform: translate(3px, 4px) rotate(-45deg);
+}
+
+/* Checked, Indeterminate */
+.cl-checkbox > input:checked,
+.cl-checkbox > input:indeterminate {
+  background-color: #018786;
+}
+
+.cl-checkbox > input:checked + span::before,
+.cl-checkbox > input:indeterminate + span::before {
+  border-color: #018786;
+  background-color: #018786;
+}
+
+.cl-checkbox > input:checked + span::after,
+.cl-checkbox > input:indeterminate + span::after {
+  border-color: #fff;
+}
+
+.cl-checkbox > input:indeterminate + span::after {
+  border-left: none;
+  transform: translate(4px, 3px);
+}
+
+/* Hover, Focus */
+.cl-checkbox:hover > input {
+  opacity: 0.04;
+}
+
+.cl-checkbox > input:focus {
+  opacity: 0.12;
+}
+
+.cl-checkbox:hover > input:focus {
+  opacity: 0.16;
+}
+
+/* Active */
+.cl-checkbox > input:active {
+  opacity: 1;
+  transform: scale(0);
+  transition:
+    transform 0s,
+    opacity 0s;
+}
+
+.cl-checkbox > input:active + span::before {
+  border-color: #85b8b7;
+}
+
+.cl-checkbox > input:checked:active + span::before {
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Disabled */
+.cl-checkbox > input:disabled {
+  opacity: 0;
+}
+
+.cl-checkbox > input:disabled + span {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: initial;
+}
+
+.cl-checkbox > input:disabled + span::before {
+  border-color: currentColor;
+}
+
+.cl-checkbox > input:checked:disabled + span::before,
+.cl-checkbox > input:indeterminate:disabled + span::before {
+  border-color: transparent;
+  background-color: currentColor;
+}
+
+/* checkbox */
